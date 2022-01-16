@@ -1,0 +1,90 @@
+
+.yazi{
+    font-family: 'EB Garamond', serif;
+}
+#span-yazi{
+    position: relative;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+    border:solid 5px #212529;
+    z-index: 10;
+    margin-top: -45px;
+    color: black;
+    background-color:transparent;
+    letter-spacing: 10px;
+    font-family: 'EB Garamond', serif;
+}
+#ust-resim{
+    position: relative;
+    width: 100%;
+}
+#form{
+    position: relative;
+    margin-top: -45px;;
+}
+#form table{
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+#form table input{
+    border: none;
+    cursor: help;
+
+}
+.form-control:focus {
+    box-shadow: none;
+  }
+
+.icon{
+    font-size: 36px !important;
+    border: black solid 2px;
+
+}
+table{
+    margin: auto;
+    text-align:center;
+}
+
+.search-btn{
+    animation-name: change;
+    animation-duration: 4s;
+    width: 100%;
+    border-radius: 0;
+}
+@keyframes change {
+    from {background-color: white;}
+    to {background-color: black;}
+  }
+.search-btn:focus{
+    box-shadow: none;
+}
+.food{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.add-form{
+    width: 33%;
+    display: inline;
+}
+pre{
+    font-family: 'Playfair Display', serif;
+    font-size: 12pt;    
+    white-space: pre-wrap;      
+    
+ 
+    
+}
+.orta{
+    margin-left: auto;
+    margin-right: auto;
+}
+.girisInput{
+width: 100%;
+}
